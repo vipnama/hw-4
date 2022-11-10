@@ -4,11 +4,11 @@
 
 1. Declare a constant called `friends` to represent the number of friends you have on social media. Give it a value between 50 and 1000. Print out the value by referencing your constant.
 
-2.Now assume you go through and remove friends that aren't active on social media. Attempt to update your friends constant to a lower number than it currently is. Observe what happens and then move to the next step.
+2.Now assume you go through and remove friends that aren't active on social media. Attempt to update your friends constant to a lower number than it currently is. Observe what happens and then move to the next question.
 
 3.Does the above code compile? Why not? Print your explanation to the console using the print function. Go back and delete your line of code that updates the friends constant to a lower number so that the playground will compile properly.
 
-### a fitness tracking app  
+### fitness tracking app  
 
 4.Your fitness tracking app needs to know goal number of steps per day. Create a constant `goalSteps` and set it to 10000.
 
@@ -16,17 +16,17 @@
 
 ### variable
 
-6.Declare a variable `schooling` and set it to the number of years of school that you have completed. Print schooling to the console.
+6.Declare a variable `schooling` and set it to the number of years of school that you have completed. Print `schooling` to the console.
 
-7.Now imagine you just completed an additional year of school, and update the schooling variable accordingly. Print schooling to the console.
+7.Now imagine you just completed an additional year of school, and update the `schooling` variable accordingly. Print `schooling` to the console.
 
 8.Does the above code compile? Why is this different than trying to update a constant? Print your explanation to the console using the print function.
 
-9.Create a variable called `steps` that will keep track of the number of steps you take throughout the day. Set its initial value to 0 to represent the step count first thing in the morning. Print steps to the console.
+9.Create a variable called `steps` that will keep track of the number of steps you take throughout the day. Set its initial value to 0 to represent the step count first thing in the morning. Print `steps` to the console.
 
-10.Now assume the tracker has been keeping track of steps all morning, and you want to show the user the latest step count. Update steps to be 2000. Print steps to the console. Then print "Good job! You're well on your way to your daily goal."
+10.Now assume the tracker has been keeping track of steps all morning, and you want to show the user the latest step count. Update `steps` to be 2000. Print `steps` to the console. Then print "Good job! You're well on your way to your daily goal."
 
-### Constant or Variable?
+### Constant or Variable
 
 #### Imagine you're creating a simple photo sharing app. You want to keep track of the following metrics for each post:
 
@@ -54,29 +54,33 @@
 
 14.Declare two variables, one called `firstDecimal` and one called `secondDecimal`. Both should have decimal values. Look at both of their types by holding Option and clicking the variable name.
 
-15.Declare a variable called `trueOrFalse` and give it a boolean value. Try to assign it to firstDecimal like so: firstDecimal = trueOrFalse. Does it compile? Print a statement to the console explaining why not, and remove the line of code that will not compile.
+15.Declare a variable called `trueOrFalse` and give it a boolean value. Try to assign it to `firstDecimal` like so: `firstDecimal = trueOrFalse`. Does it compile? Print a statement to the console explaining why not, and remove the line of code that will not compile.
 
 ### Type Inference and Required Values
 
-16.Declare a variable and give it a string value. Then try to assign it to firstDecimal. Does it compile? Print a statement to the console explaining why not, and remove the line of code that will not compile.
+16.Declare a variable and give it a string value. Then try to assign it to `firstDecimal`. Does it compile? Print a statement to the console explaining why not, and remove the line of code that will not compile.
 
-17.Finally, declare a variable with a whole number value. Then try to assign it to firstDecimal. Why won't this compile even though both variables are numbers? Print a statement to the console explaining why not, and remove the line of code that will not compile.
+17.Finally, declare a variable with a whole number value. Then try to assign it to `firstDecimal`. Why won't this compile even though both variables are numbers? Print a statement to the console explaining why not, and remove the line of code that will not compile.
+
+### Tracking Different Types
 
 18.You have declared a number of constants and variables to keep track of fitness information. Declare one more variable with a boolean value called `hasMetStepGoal`.
 
 19.When you declared a constant for goal number of steps and a variable for current step count, you likely assigned each a value in the thousands. This can be difficult to read. Redeclare this constant and variable and, when assigning each a value in the thousands, format the number so that it is more readable.
 
+### Type Inference and Required Values
+
 20.Declare a variable called `name` of type String, but do not give it a value. Print name to the console. Does the code compile? Remove any code that will not compile.
 
-21.Now assign a value to name, and print it to the console.
+21.Now assign a value to `name`, and print it to the console.
 
 22.Declare a variable called `distanceTraveled` and set it to 0. Do not give it an explicit type.
 
-23.Now assign a value of 54.3 to distanceTraveled. Does the code compile? Go back and set an explicit type on distanceTraveled so the code will compile.
+23.Now assign a value of 54.3 to `distanceTraveled`. Does the code compile? Go back and set an explicit type on `distanceTraveled` so the code will compile.
 
-24.You decide that your fitness tracking app should show the user what percentage of his/her goal has been achieved so far today. Declare a variable called percentCompleted and set it to 0. Do not explicity assign it a type.
+24.You decide that your fitness tracking app should show the user what percentage of his/her goal has been achieved so far today. Declare a variable called `percentCompleted` and set it to 0. Do not explicity assign it a type.
 
-25.Imagine that partway through the day a user has taken 3,467 steps out of the 10,000 step goal. This means he/she is 34.67% of the way to his/her goal. Assign 34.67 to percentCompleted. Does the code compile? Go back and explicity assign a type to percentCompleted that will allow the code to compile.
+25.Imagine that partway through the day a user has taken 3,467 steps out of the 10,000 step goal. This means he/she is 34.67% of the way to his/her goal. Assign 34.67 to `percentCompleted`. Does the code compile? Go back and explicity assign a type to percentCompleted that will allow the code to compile.
 
 ### Basic Arithmetic
 
@@ -210,27 +214,3 @@ print(43 == 53)
 
 65. Create constants `isInTarget`, `isBelowTarget`, and `isAboveTarget` that equal expressions that evaluate to whether or not `currentHR` is between the lower and upper bounds, below the lower bound, and above the upper bound, respectively. Then write an if-else-if statement that will print "You're right on track!" if the user is inside the target zone, "You're doing great, but try to push it a bit!" if the user is below the target zone, and "You're on fire! Slow it down just a bit." if the user is above the target zone.
 
-### Switch Statements
-
-66. Imagine you're on a baseball team nearing the end of the season. Create a `leaguePosition` constant with a value of 1. Using a switch statement, print "Champions!" if the leaguePosition is 1, "Runners up" if the value is 2, "Third place" if the value is 3, and "Bad season!" in all other cases.
-
-67. Write a new switch statement that prints "Medal winner" if leaguePosition is within the range of 1-3. Otherwise, print "No medal awarded."
-
-#### If you completed the Target Heart Rate exercise, you showed different statements to the user based on whether or not the user's heart rate was inside of a target zone. Now you decide to just tell them what zone they are in rather than tell them what zone to be in.
-
-68. Write a switch statement that will print different statements based on what range currentHR falls into. Below is a list of ranges and the associated statements
-
-* 100-120: "You are in the Very Light zone. Activity in this zone helps with recovery."
-* 121-140: "You are in the Light zone. Activity in this zone helps improve basice endurance and fat burning."
-* 141-160: "You are in the Moderate zone. Activity in this zone helps improve aerobic fitness."
-* 161-180: "You are in the Hard zone. Activity in this zone increases maximum performance capacity for shorter sessions."
-* 181-200: "You are in the Maximum zone. Activity in this zone helps fit athletes develop speed."
-
-69. If currentHR is above the listed zones, print some kind of warning asking the user to slow down.
-
-### Ternary Operator
-
-70. Refactor the code below so that largest is declared and assigned to in one line using the ternary operator.
-
-71. The code below should look similar to code you wrote in the Fitness Decisions exercise. The if-else statement is actually unnecessary, and instead you can print either one statement or the other all on one line using the ternary operator. Go ahead and refactor the code below to do just that.
-72. 
