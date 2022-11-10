@@ -1,5 +1,7 @@
 # Homework 4
 
+## Lab 2
+
 ### Constants
 
 1. Declare a constant called `friends` to represent the number of friends you have on social media. Give it a value between 50 and 1000. Print out the value by referencing your constant.
