@@ -1,5 +1,11 @@
-import 'package:hw4/hw4.dart' as hw4;
+const  friends = 1000;
 
-void main(List<String> arguments) {
-  print('Hello world: ${hw4.calculate()}!');
+main (){
+
+print(friends);
+//friends = 900;
+// المتغيرات الثاتبه لا تقبل تغيير قيمتها أثناء تشغيل البرنامج 
+print(friends);
+
+print("Constatn variables can't be assigned a value");
 }
